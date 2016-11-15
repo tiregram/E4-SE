@@ -31,3 +31,10 @@
 # Debug files
 *.dSYM/
 *.su
+
+
+# cmake exclusion
+CMakeCache.txt
+CMakeFiles
+bin/*
+makefile
