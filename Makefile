@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named bin/exo2
+# Target rules for targets named bin/exo3
 
 # Build rule for target.
-bin/exo2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bin/exo2
-.PHONY : bin/exo2
+bin/exo3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bin/exo3
+.PHONY : bin/exo3
 
 # fast build rule for target.
-bin/exo2/fast:
-	$(MAKE) -f CMakeFiles/bin/exo2.dir/build.make CMakeFiles/bin/exo2.dir/build
-.PHONY : bin/exo2/fast
+bin/exo3/fast:
+	$(MAKE) -f CMakeFiles/bin/exo3.dir/build.make CMakeFiles/bin/exo3.dir/build
+.PHONY : bin/exo3/fast
+
+#=============================================================================
+# Target rules for targets named bin/test2b5
+
+# Build rule for target.
+bin/test2b5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bin/test2b5
+.PHONY : bin/test2b5
+
+# fast build rule for target.
+bin/test2b5/fast:
+	$(MAKE) -f CMakeFiles/bin/test2b5.dir/build.make CMakeFiles/bin/test2b5.dir/build
+.PHONY : bin/test2b5/fast
 
 #=============================================================================
 # Target rules for targets named bin/mrun
@@ -137,6 +150,58 @@ bin/mrun/fast:
 .PHONY : bin/mrun/fast
 
 #=============================================================================
+# Target rules for targets named bin/test2b3
+
+# Build rule for target.
+bin/test2b3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bin/test2b3
+.PHONY : bin/test2b3
+
+# fast build rule for target.
+bin/test2b3/fast:
+	$(MAKE) -f CMakeFiles/bin/test2b3.dir/build.make CMakeFiles/bin/test2b3.dir/build
+.PHONY : bin/test2b3/fast
+
+#=============================================================================
+# Target rules for targets named bin/testGestionFile
+
+# Build rule for target.
+bin/testGestionFile: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bin/testGestionFile
+.PHONY : bin/testGestionFile
+
+# fast build rule for target.
+bin/testGestionFile/fast:
+	$(MAKE) -f CMakeFiles/bin/testGestionFile.dir/build.make CMakeFiles/bin/testGestionFile.dir/build
+.PHONY : bin/testGestionFile/fast
+
+#=============================================================================
+# Target rules for targets named bin/test2b4
+
+# Build rule for target.
+bin/test2b4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bin/test2b4
+.PHONY : bin/test2b4
+
+# fast build rule for target.
+bin/test2b4/fast:
+	$(MAKE) -f CMakeFiles/bin/test2b4.dir/build.make CMakeFiles/bin/test2b4.dir/build
+.PHONY : bin/test2b4/fast
+
+#=============================================================================
+# Target rules for targets named bin/exo2
+
+# Build rule for target.
+bin/exo2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bin/exo2
+.PHONY : bin/exo2
+
+# fast build rule for target.
+bin/exo2/fast:
+	$(MAKE) -f CMakeFiles/bin/exo2.dir/build.make CMakeFiles/bin/exo2.dir/build
+.PHONY : bin/exo2/fast
+
+#=============================================================================
 # Target rules for targets named bin/exo1
 
 # Build rule for target.
@@ -150,17 +215,30 @@ bin/exo1/fast:
 .PHONY : bin/exo1/fast
 
 #=============================================================================
-# Target rules for targets named bin/exo3
+# Target rules for targets named bin/test2b1
 
 # Build rule for target.
-bin/exo3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bin/exo3
-.PHONY : bin/exo3
+bin/test2b1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bin/test2b1
+.PHONY : bin/test2b1
 
 # fast build rule for target.
-bin/exo3/fast:
-	$(MAKE) -f CMakeFiles/bin/exo3.dir/build.make CMakeFiles/bin/exo3.dir/build
-.PHONY : bin/exo3/fast
+bin/test2b1/fast:
+	$(MAKE) -f CMakeFiles/bin/test2b1.dir/build.make CMakeFiles/bin/test2b1.dir/build
+.PHONY : bin/test2b1/fast
+
+#=============================================================================
+# Target rules for targets named bin/test2b2
+
+# Build rule for target.
+bin/test2b2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bin/test2b2
+.PHONY : bin/test2b2
+
+# fast build rule for target.
+bin/test2b2/fast:
+	$(MAKE) -f CMakeFiles/bin/test2b2.dir/build.make CMakeFiles/bin/test2b2.dir/build
+.PHONY : bin/test2b2/fast
 
 src/exo1.o: src/exo1.c.o
 
@@ -270,6 +348,210 @@ src/exo3.c.s:
 	$(MAKE) -f CMakeFiles/bin/exo3.dir/build.make CMakeFiles/bin/exo3.dir/src/exo3.c.s
 .PHONY : src/exo3.c.s
 
+src/td1m/gestionFichier.o: src/td1m/gestionFichier.c.o
+
+.PHONY : src/td1m/gestionFichier.o
+
+# target to build an object file
+src/td1m/gestionFichier.c.o:
+	$(MAKE) -f CMakeFiles/bin/test2b5.dir/build.make CMakeFiles/bin/test2b5.dir/src/td1m/gestionFichier.c.o
+	$(MAKE) -f CMakeFiles/bin/test2b3.dir/build.make CMakeFiles/bin/test2b3.dir/src/td1m/gestionFichier.c.o
+	$(MAKE) -f CMakeFiles/bin/testGestionFile.dir/build.make CMakeFiles/bin/testGestionFile.dir/src/td1m/gestionFichier.c.o
+	$(MAKE) -f CMakeFiles/bin/test2b4.dir/build.make CMakeFiles/bin/test2b4.dir/src/td1m/gestionFichier.c.o
+	$(MAKE) -f CMakeFiles/bin/test2b1.dir/build.make CMakeFiles/bin/test2b1.dir/src/td1m/gestionFichier.c.o
+	$(MAKE) -f CMakeFiles/bin/test2b2.dir/build.make CMakeFiles/bin/test2b2.dir/src/td1m/gestionFichier.c.o
+.PHONY : src/td1m/gestionFichier.c.o
+
+src/td1m/gestionFichier.i: src/td1m/gestionFichier.c.i
+
+.PHONY : src/td1m/gestionFichier.i
+
+# target to preprocess a source file
+src/td1m/gestionFichier.c.i:
+	$(MAKE) -f CMakeFiles/bin/test2b5.dir/build.make CMakeFiles/bin/test2b5.dir/src/td1m/gestionFichier.c.i
+	$(MAKE) -f CMakeFiles/bin/test2b3.dir/build.make CMakeFiles/bin/test2b3.dir/src/td1m/gestionFichier.c.i
+	$(MAKE) -f CMakeFiles/bin/testGestionFile.dir/build.make CMakeFiles/bin/testGestionFile.dir/src/td1m/gestionFichier.c.i
+	$(MAKE) -f CMakeFiles/bin/test2b4.dir/build.make CMakeFiles/bin/test2b4.dir/src/td1m/gestionFichier.c.i
+	$(MAKE) -f CMakeFiles/bin/test2b1.dir/build.make CMakeFiles/bin/test2b1.dir/src/td1m/gestionFichier.c.i
+	$(MAKE) -f CMakeFiles/bin/test2b2.dir/build.make CMakeFiles/bin/test2b2.dir/src/td1m/gestionFichier.c.i
+.PHONY : src/td1m/gestionFichier.c.i
+
+src/td1m/gestionFichier.s: src/td1m/gestionFichier.c.s
+
+.PHONY : src/td1m/gestionFichier.s
+
+# target to generate assembly for a file
+src/td1m/gestionFichier.c.s:
+	$(MAKE) -f CMakeFiles/bin/test2b5.dir/build.make CMakeFiles/bin/test2b5.dir/src/td1m/gestionFichier.c.s
+	$(MAKE) -f CMakeFiles/bin/test2b3.dir/build.make CMakeFiles/bin/test2b3.dir/src/td1m/gestionFichier.c.s
+	$(MAKE) -f CMakeFiles/bin/testGestionFile.dir/build.make CMakeFiles/bin/testGestionFile.dir/src/td1m/gestionFichier.c.s
+	$(MAKE) -f CMakeFiles/bin/test2b4.dir/build.make CMakeFiles/bin/test2b4.dir/src/td1m/gestionFichier.c.s
+	$(MAKE) -f CMakeFiles/bin/test2b1.dir/build.make CMakeFiles/bin/test2b1.dir/src/td1m/gestionFichier.c.s
+	$(MAKE) -f CMakeFiles/bin/test2b2.dir/build.make CMakeFiles/bin/test2b2.dir/src/td1m/gestionFichier.c.s
+.PHONY : src/td1m/gestionFichier.c.s
+
+src/td1m/test2b1.o: src/td1m/test2b1.c.o
+
+.PHONY : src/td1m/test2b1.o
+
+# target to build an object file
+src/td1m/test2b1.c.o:
+	$(MAKE) -f CMakeFiles/bin/test2b1.dir/build.make CMakeFiles/bin/test2b1.dir/src/td1m/test2b1.c.o
+.PHONY : src/td1m/test2b1.c.o
+
+src/td1m/test2b1.i: src/td1m/test2b1.c.i
+
+.PHONY : src/td1m/test2b1.i
+
+# target to preprocess a source file
+src/td1m/test2b1.c.i:
+	$(MAKE) -f CMakeFiles/bin/test2b1.dir/build.make CMakeFiles/bin/test2b1.dir/src/td1m/test2b1.c.i
+.PHONY : src/td1m/test2b1.c.i
+
+src/td1m/test2b1.s: src/td1m/test2b1.c.s
+
+.PHONY : src/td1m/test2b1.s
+
+# target to generate assembly for a file
+src/td1m/test2b1.c.s:
+	$(MAKE) -f CMakeFiles/bin/test2b1.dir/build.make CMakeFiles/bin/test2b1.dir/src/td1m/test2b1.c.s
+.PHONY : src/td1m/test2b1.c.s
+
+src/td1m/test2b2.o: src/td1m/test2b2.c.o
+
+.PHONY : src/td1m/test2b2.o
+
+# target to build an object file
+src/td1m/test2b2.c.o:
+	$(MAKE) -f CMakeFiles/bin/test2b2.dir/build.make CMakeFiles/bin/test2b2.dir/src/td1m/test2b2.c.o
+.PHONY : src/td1m/test2b2.c.o
+
+src/td1m/test2b2.i: src/td1m/test2b2.c.i
+
+.PHONY : src/td1m/test2b2.i
+
+# target to preprocess a source file
+src/td1m/test2b2.c.i:
+	$(MAKE) -f CMakeFiles/bin/test2b2.dir/build.make CMakeFiles/bin/test2b2.dir/src/td1m/test2b2.c.i
+.PHONY : src/td1m/test2b2.c.i
+
+src/td1m/test2b2.s: src/td1m/test2b2.c.s
+
+.PHONY : src/td1m/test2b2.s
+
+# target to generate assembly for a file
+src/td1m/test2b2.c.s:
+	$(MAKE) -f CMakeFiles/bin/test2b2.dir/build.make CMakeFiles/bin/test2b2.dir/src/td1m/test2b2.c.s
+.PHONY : src/td1m/test2b2.c.s
+
+src/td1m/test2b3.o: src/td1m/test2b3.c.o
+
+.PHONY : src/td1m/test2b3.o
+
+# target to build an object file
+src/td1m/test2b3.c.o:
+	$(MAKE) -f CMakeFiles/bin/test2b3.dir/build.make CMakeFiles/bin/test2b3.dir/src/td1m/test2b3.c.o
+.PHONY : src/td1m/test2b3.c.o
+
+src/td1m/test2b3.i: src/td1m/test2b3.c.i
+
+.PHONY : src/td1m/test2b3.i
+
+# target to preprocess a source file
+src/td1m/test2b3.c.i:
+	$(MAKE) -f CMakeFiles/bin/test2b3.dir/build.make CMakeFiles/bin/test2b3.dir/src/td1m/test2b3.c.i
+.PHONY : src/td1m/test2b3.c.i
+
+src/td1m/test2b3.s: src/td1m/test2b3.c.s
+
+.PHONY : src/td1m/test2b3.s
+
+# target to generate assembly for a file
+src/td1m/test2b3.c.s:
+	$(MAKE) -f CMakeFiles/bin/test2b3.dir/build.make CMakeFiles/bin/test2b3.dir/src/td1m/test2b3.c.s
+.PHONY : src/td1m/test2b3.c.s
+
+src/td1m/test2b4.o: src/td1m/test2b4.c.o
+
+.PHONY : src/td1m/test2b4.o
+
+# target to build an object file
+src/td1m/test2b4.c.o:
+	$(MAKE) -f CMakeFiles/bin/test2b4.dir/build.make CMakeFiles/bin/test2b4.dir/src/td1m/test2b4.c.o
+.PHONY : src/td1m/test2b4.c.o
+
+src/td1m/test2b4.i: src/td1m/test2b4.c.i
+
+.PHONY : src/td1m/test2b4.i
+
+# target to preprocess a source file
+src/td1m/test2b4.c.i:
+	$(MAKE) -f CMakeFiles/bin/test2b4.dir/build.make CMakeFiles/bin/test2b4.dir/src/td1m/test2b4.c.i
+.PHONY : src/td1m/test2b4.c.i
+
+src/td1m/test2b4.s: src/td1m/test2b4.c.s
+
+.PHONY : src/td1m/test2b4.s
+
+# target to generate assembly for a file
+src/td1m/test2b4.c.s:
+	$(MAKE) -f CMakeFiles/bin/test2b4.dir/build.make CMakeFiles/bin/test2b4.dir/src/td1m/test2b4.c.s
+.PHONY : src/td1m/test2b4.c.s
+
+src/td1m/test2b5.o: src/td1m/test2b5.c.o
+
+.PHONY : src/td1m/test2b5.o
+
+# target to build an object file
+src/td1m/test2b5.c.o:
+	$(MAKE) -f CMakeFiles/bin/test2b5.dir/build.make CMakeFiles/bin/test2b5.dir/src/td1m/test2b5.c.o
+.PHONY : src/td1m/test2b5.c.o
+
+src/td1m/test2b5.i: src/td1m/test2b5.c.i
+
+.PHONY : src/td1m/test2b5.i
+
+# target to preprocess a source file
+src/td1m/test2b5.c.i:
+	$(MAKE) -f CMakeFiles/bin/test2b5.dir/build.make CMakeFiles/bin/test2b5.dir/src/td1m/test2b5.c.i
+.PHONY : src/td1m/test2b5.c.i
+
+src/td1m/test2b5.s: src/td1m/test2b5.c.s
+
+.PHONY : src/td1m/test2b5.s
+
+# target to generate assembly for a file
+src/td1m/test2b5.c.s:
+	$(MAKE) -f CMakeFiles/bin/test2b5.dir/build.make CMakeFiles/bin/test2b5.dir/src/td1m/test2b5.c.s
+.PHONY : src/td1m/test2b5.c.s
+
+src/td1m/testgestiondisk.o: src/td1m/testgestiondisk.c.o
+
+.PHONY : src/td1m/testgestiondisk.o
+
+# target to build an object file
+src/td1m/testgestiondisk.c.o:
+	$(MAKE) -f CMakeFiles/bin/testGestionFile.dir/build.make CMakeFiles/bin/testGestionFile.dir/src/td1m/testgestiondisk.c.o
+.PHONY : src/td1m/testgestiondisk.c.o
+
+src/td1m/testgestiondisk.i: src/td1m/testgestiondisk.c.i
+
+.PHONY : src/td1m/testgestiondisk.i
+
+# target to preprocess a source file
+src/td1m/testgestiondisk.c.i:
+	$(MAKE) -f CMakeFiles/bin/testGestionFile.dir/build.make CMakeFiles/bin/testGestionFile.dir/src/td1m/testgestiondisk.c.i
+.PHONY : src/td1m/testgestiondisk.c.i
+
+src/td1m/testgestiondisk.s: src/td1m/testgestiondisk.c.s
+
+.PHONY : src/td1m/testgestiondisk.s
+
+# target to generate assembly for a file
+src/td1m/testgestiondisk.c.s:
+	$(MAKE) -f CMakeFiles/bin/testGestionFile.dir/build.make CMakeFiles/bin/testGestionFile.dir/src/td1m/testgestiondisk.c.s
+.PHONY : src/td1m/testgestiondisk.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -278,10 +560,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... bin/exo2"
-	@echo "... bin/mrun"
-	@echo "... bin/exo1"
 	@echo "... bin/exo3"
+	@echo "... bin/test2b5"
+	@echo "... bin/mrun"
+	@echo "... bin/test2b3"
+	@echo "... bin/testGestionFile"
+	@echo "... bin/test2b4"
+	@echo "... bin/exo2"
+	@echo "... bin/exo1"
+	@echo "... bin/test2b1"
+	@echo "... bin/test2b2"
 	@echo "... src/exo1.o"
 	@echo "... src/exo1.i"
 	@echo "... src/exo1.s"
@@ -294,6 +582,27 @@ help:
 	@echo "... src/exo3.o"
 	@echo "... src/exo3.i"
 	@echo "... src/exo3.s"
+	@echo "... src/td1m/gestionFichier.o"
+	@echo "... src/td1m/gestionFichier.i"
+	@echo "... src/td1m/gestionFichier.s"
+	@echo "... src/td1m/test2b1.o"
+	@echo "... src/td1m/test2b1.i"
+	@echo "... src/td1m/test2b1.s"
+	@echo "... src/td1m/test2b2.o"
+	@echo "... src/td1m/test2b2.i"
+	@echo "... src/td1m/test2b2.s"
+	@echo "... src/td1m/test2b3.o"
+	@echo "... src/td1m/test2b3.i"
+	@echo "... src/td1m/test2b3.s"
+	@echo "... src/td1m/test2b4.o"
+	@echo "... src/td1m/test2b4.i"
+	@echo "... src/td1m/test2b4.s"
+	@echo "... src/td1m/test2b5.o"
+	@echo "... src/td1m/test2b5.i"
+	@echo "... src/td1m/test2b5.s"
+	@echo "... src/td1m/testgestiondisk.o"
+	@echo "... src/td1m/testgestiondisk.i"
+	@echo "... src/td1m/testgestiondisk.s"
 .PHONY : help
 
 
